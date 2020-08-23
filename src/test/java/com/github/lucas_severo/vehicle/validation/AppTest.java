@@ -1,4 +1,4 @@
-package com.lrs.vehicle.validation;
+package com.github.lucas_severo.vehicle.validation;
 
 import static org.junit.Assert.assertTrue;
 

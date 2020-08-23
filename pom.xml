@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.lrs.vehicle.validation</groupId>
+    <groupId>com.github.lucas-severo</groupId>
     <artifactId>vehicle-validation</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-ALFA.0</version>
 
     <name>vehicle-validation</name>
  
-    <url>http://www.github.com/Lucas-Severo</url>
+    <url>https://www.github.com/Lucas-Severo</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,13 +31,15 @@
             <version>3.4.6</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-junit-jupiter</artifactId>
-            <version>3.5.0</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Lucas-Severo</name>
+            <url>https://maven.pkg.github.com/Lucas-Severo/VehicleValidation/</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <pluginManagement>
