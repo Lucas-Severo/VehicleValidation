@@ -1,6 +1,5 @@
 package com.github.lucas_severo.vehicle.validation;
 
-import com.github.lucas_severo.vehicle.validation.RenavamValidator;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
